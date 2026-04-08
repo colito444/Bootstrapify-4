@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.6)
+    addressable (2.9.0)
+      public_suffix (>= 2.0.2, < 8.0)
     filewatcher (0.3.6)
       trollop (~> 2.0)
     httparty (0.13.3)
@@ -12,6 +13,7 @@ GEM
       addressable (~> 2.3)
     mimemagic (0.2.1)
     multi_xml (0.5.5)
+    public_suffix (7.0.5)
     shopify_theme (0.0.21)
       filewatcher
       httparty (~> 0.13.0)
